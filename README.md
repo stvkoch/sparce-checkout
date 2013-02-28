@@ -11,12 +11,12 @@ Usage
 
 New repository:
 
-  mkdir <repo> && cd <repo>
+	mkdir <repo> && cd <repo>
 	git init
 	git remote add –f <name> <url>
 
   
-  config-sparce-checkout.sh subdirectory/onlythiscontent subdirectory/otheronlydir
+	config-sparce-checkout.sh subdirectory/onlythiscontent subdirectory/otheronlydir
   
 
 
