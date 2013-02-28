@@ -12,8 +12,8 @@ Usage
 New repository:
 
   mkdir <repo> && cd <repo>
-  git init
-  git remote add –f <name> <url>
+	git init
+	git remote add –f <name> <url>
 
   
   config-sparce-checkout.sh subdirectory/onlythiscontent subdirectory/otheronlydir
@@ -22,10 +22,10 @@ New repository:
 
 Existing Repository
 
-  config-sparce-checkout.sh subdirectory/onlythiscontent subdirectory/otheronlydir
+	config-sparce-checkout.sh subdirectory/onlythiscontent subdirectory/otheronlydir
 
 
 
 Later, if you need pull content, only run:
 
-  git pull <remote> <branch>
+	git pull <remote> <branch>
