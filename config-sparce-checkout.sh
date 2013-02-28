@@ -1,7 +1,9 @@
 #!/bin/sh
 
-
-echo > .git/info/sparse-checkout
+if [ ! -e ".git/info/sparse-checkout" ]
+then
+  echo > .git/info/sparse-checkout
+fi
 
 for i in "$@"
 do
